@@ -1,0 +1,48 @@
+#  _
+# | |_ ___ _ __ _ __ ___
+# | __/ _ \ '__| '_ ` _ \
+# | ||  __/ |  | | | | | |
+#  \__\___|_|  |_| |_| |_|
+
+custom_cursor_colors: true
+
+window:
+  padding:
+    x: 30
+    y: 30
+
+font:
+  size: 10
+  normal:
+    family: Fira Code
+
+colors:
+  cursor:
+    cursor: '0x937f74'
+
+  # Default colors
+  primary:
+    background: '0x2a2a2a'
+    foreground: '0xbebebe'
+
+  # Normal colors
+  normal:
+    black:   '0x2a2a2a'
+    red:     '0x637a8a'
+    green:   '0xaa8f7c'
+    yellow:  '0x8b8f7e'
+    blue:    '0x987a6b'
+    magenta: '0x877979'
+    cyan:    '0x937f74'
+    white:   '0xbebebe'
+
+  # Bright colors
+  bright:
+    black:   '0x3a3a3a'
+    red:     '0x637a8a'
+    green:   '0xaa8f7c'
+    yellow:  '0x8b8f7e'
+    blue:    '0x987a6b'
+    magenta: '0x877979'
+    cyan:    '0x937f74'
+    white:   '0xbebebe'
