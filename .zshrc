@@ -1,5 +1,6 @@
 export ZSH="$HOME/.oh-my-zsh"
-ZSH_THEME="robbyrussell"
+#ZSH_THEME="robbyrussell"
+export PROMPT='%F{red}%B*%b%f '
 
 plugins=(git)
 
@@ -9,7 +10,7 @@ source $ZSH/oh-my-zsh.sh
 cd $HOME && ./.c.sh
 
 ### exports
-export VISUAL=nano
+export VISUAL=vim
 export EDITOR="$VISUAL"
 export BROWSER=qutebrowser
 export PATH=$PATH:$HOME/.local/bin:$HOME/bin
@@ -51,7 +52,6 @@ alias pulse="python .pulse.py"
 alias f="ranger"
 alias weather="wttr Novosibirsk"
 alias m="cmus"
-alias vi="subl"
 alias clock="tty-clock -c -n"
 alias ht="htop"
 alias cm="cmatrix"
